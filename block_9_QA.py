@@ -1,11 +1,11 @@
 import pandas as pd
 import streamlit as st
 
-vendor = pd.read_excel(r'C:\Users\Admin\Documents\vendor.xls')
-phone = pd.read_excel(r'C:\Users\Admin\Documents\phone.xls')
-person = pd.read_excel(r'C:\Users\Admin\Documents\person.xls')
-email = pd.read_excel(r'C:\Users\Admin\Documents\email.xls')
-password = pd.read_excel(r'C:\Users\Admin\Documents\Passwords.xls')
+vendor = pd.read_excel(r'vendor.xls')
+phone = pd.read_excel(r'phone.xls')
+person = pd.read_excel(r'person.xls')
+#email = pd.read_excel(r'C:\Users\Admin\Documents\email.xls')
+#password = pd.read_excel(r'C:\Users\Admin\Documents\Passwords.xls')
 
 
 ###Задание №1
