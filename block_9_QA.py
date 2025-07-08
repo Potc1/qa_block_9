@@ -1,9 +1,9 @@
 import pandas as pd
 import streamlit as st
 
-vendor = pd.read_excel(r'https://raw.githubusercontent.com//Potc1/qa_block_9/vendor.xls')
-phone = pd.read_excel(r'https://raw.githubusercontent.com//Potc1/qa_block_9/phone.xls')
-person = pd.read_excel(r'https://raw.githubusercontent.com//Potc1/qa_block_9/person.xls')
+vendor = pd.read_csv(r'https://raw.githubusercontent.com/Potc1/qa_block_9/refs/heads/main/vendor.csv', sep=';')
+phone = pd.read_csv(r'https://raw.githubusercontent.com/Potc1/qa_block_9/refs/heads/main/phone.csv', sep=';')
+person = pd.read_csv(r'https://raw.githubusercontent.com/Potc1/qa_block_9/refs/heads/main/person.csv', sep=';')
 #email = pd.read_excel(r'C:\Users\Admin\Documents\email.xls')
 #password = pd.read_excel(r'C:\Users\Admin\Documents\Passwords.xls')
 
